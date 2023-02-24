@@ -1,0 +1,14 @@
+:root {
+  /* fonts */
+  --font-jost: Jost;
+
+  /* font sizes */
+  --font-size-base: 24px;
+  --font-size-lg: 40px;
+
+  /* Colors */
+  --color-gray: #feffff;
+  --color-black: #000;
+  --color-mediumblue: #3840ff;
+  --color-white: #fff;
+}

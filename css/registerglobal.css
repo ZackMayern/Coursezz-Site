@@ -1,0 +1,19 @@
+:root {
+  /* fonts */
+  --font-jost: Jost;
+
+  /* font sizes */
+  --font-size-sm: 20px;
+  --font-size-base: 24px;
+  --font-size-lg: 32px;
+  --font-size-xl: 40px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-mediumblue: #3840ff;
+  --color-black: #000;
+  --color-gray: #feffff;
+
+  /* border radiuses */
+  --br-md: 15px;
+}

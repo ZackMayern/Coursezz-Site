@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.register-form-container,
+.shapes-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.shapes-icon {
+  width: 1920px;
+  height: 1024px;
+}
+.register-form-container {
+  border-radius: var(--br-md);
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.25);
+  width: 457px;
+  height: 528px;
+}
+.login-button,
+.register,
+.submit-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  width: 206px;
+  height: 63.16px;
+}
+.login-button {
+  background-color: var(--color-mediumblue);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+}
+
+.register {
+  background-color: transparent;
+}
+.register {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  font-family: var(--font-jost);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-button {
+  top: 411.79px;
+  left: 137px;
+  text-align: center;
+}
+.login-button p{
+  font-family: var(--font-jost);
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  margin: 0;
+}
+.login {
+  color: var(--color-mediumblue);
+}
+.already-registered-login-container {
+  position: absolute;
+  top: 361px;
+  left: 125px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 249px;
+  height: 36.63px;
+  cursor: pointer;
+}
+.username-input {
+  position: absolute;
+  top: 45.37px;
+  width: 415px;
+}
+.confirm-password-input,
+.password-input,
+.username-input {
+  border: 0;
+  font-weight: 500;
+  font-family: var(--font-jost);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  left: 0;
+  height: 38px;
+}
+.password-input {
+  position: absolute;
+  top: 90.37px;
+  width: 415px;
+}
+.confirm-password-input {
+  top: 135.37px;
+}
+.confirm-password-input,
+.email-input,
+.input-fields {
+  position: absolute;
+  width: 415px;
+}
+.email-input {
+  border: 0;
+  font-weight: 500;
+  font-family: var(--font-jost);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  height: 38.37px;
+}
+.input-fields {
+  top: 180.63px;
+  left: 21px;
+  height: 173.37px;
+}
+.register-to-get,
+.signup {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-to-get {
+  top: 79px;
+  left: 11px;
+  font-weight: 500;
+  width: 435px;
+  height: 80.84px;
+}
+.signup {
+  top: 17.68px;
+  left: 157px;
+  font-size: var(--font-size-lg);
+  width: 165px;
+  height: 73.26px;
+}
+.coursezz-logo,
+.login-form {
+  position: absolute;
+}
+.login-form {
+  top: 179px;
+  left: 9px;
+  width: 457px;
+  height: 528px;
+}
+.coursezz-logo {
+  top: 0;
+  left: 106px;
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--color-mediumblue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 285px;
+  height: 77px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.login-form-parent {
+  position: absolute;
+  top: 144px;
+  left: 723px;
+  width: 475px;
+  height: 736px;
+  overflow: hidden;
+}
+.signup-page {
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-jost);
+}

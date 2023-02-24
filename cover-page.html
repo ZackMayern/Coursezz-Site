@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/cover-page.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="cover-page">
+      <!-- <div class="cover-page-info" data-scroll-to="coverPageInfo">
+        <div class="cover-page-container"></div> -->
+      <p class="cover-page-info-container">
+        <span class="cover-page-info-container1">
+          <span class="skill-up-and-push-your-limits">
+            <b>Skill up and push your limits.</b>
+          </span>
+          <span class="with-more-than-5400-courses">
+            <span class="with-more-than">
+              With more than 5,400 courses, Professional Certifications, and
+              degrees from top-tier colleges and organisations, enhance your
+              career with Coursezz.
+            </span>
+          </span>
+        </span>
+      </p>
+      <img
+        class="cover-page-image" alt="" src="public/stockphotoayoungfemalestudentsittingatthetableusingtabletwhenstudying1397722958transformed-1@2x.png"/>
+        <button class="explore-button" id="exploreButton"><p>Explore Our Courses</p></button>
+      </div>
+      <nav class="nav-bar">
+        <nav class="nav-bar1"></nav>
+        <button class="coursezz-logo" id="coursezzLogo">coursezz</button>
+        <button class="about-us-button" id="aboutUsButton">About us</button>
+        <button class="login-button" id="loginButton">Login</button>
+        <button class="register-button" id="registerButton">Register</button>
+        <div class="horizontal-rule"></div>
+      </nav>
+    </div>
+
+    <script>
+      var exploreButton = document.getElementById("exploreButton");
+      if (exploreButton) {
+        exploreButton.addEventListener("click", function (e) {
+          // Please sync "Course Home Page" to the project
+        });
+      }
+      
+      var registerButton = document.getElementById("registerButton");
+      if (registerButton) {
+        registerButton.addEventListener("click", function (e) {
+          window.location.href = "./register.html";
+        });
+      }
+      
+      var loginButton = document.getElementById("loginButton");
+      if (loginButton) {
+        loginButton.addEventListener("click", function (e) {
+          // Please sync "Login Page" to the project
+        });
+      }
+      
+      var aboutUsButton = document.getElementById("aboutUsButton");
+      if (aboutUsButton) {
+        aboutUsButton.addEventListener("click", function (e) {
+          // Please sync "About Page" to the project
+        });
+      }
+      
+      var coursezzLogo = document.getElementById("coursezzLogo");
+      if (coursezzLogo) {
+        coursezzLogo.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='coverPageInfo']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>
