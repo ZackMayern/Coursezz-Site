@@ -15,9 +15,9 @@
   <body>
     <div class="signup-page">
       <img class="shapes-icon" alt="" src="public/shapes.svg" />
-      <div class="login-form-parent">
+      <div class="signup-form-parent">
         <a class="coursezz-logo" id="coursezzLogo">coursezz</a>
-        <div class="login-form">
+        <div class="signup-form">
           <div class="register-form-container">
             <b class="signup">Signup</b>
             <div class="register-to-get">
@@ -33,16 +33,16 @@
             <div class="already-registered-login-container" id="alreadyRegisteredLogin">
               <p><span>Already registered? </span><span class="login">Login</span></span></p>
             </div>
-            <button class="login-button" id="loginButton"><p>Register</p></button>
+            <button class="register-button" id="registerButton"><p>Register</p></button>
             </div>
           </div>
       </div>
     </div>
 
     <script>
-      var loginButton = document.getElementById("loginButton");
-      if (loginButton) {
-        loginButton.addEventListener("click", function (e) {
+      var registerButton = document.getElementById("registerButton");
+      if (registerButton) {
+        registerButton.addEventListener("click", function (e) {
           // Please sync "Course Home Page" to the project
         });
       }
@@ -50,7 +50,7 @@
       var alreadyRegisteredLogin = document.getElementById("alreadyRegisteredLogin");
       if (alreadyRegisteredLogin) {
         alreadyRegisteredLogin.addEventListener("click", function (e) {
-          // Please sync "Login Page" to the project
+          window.location.href = "./login-page.html";
         });
       }
       

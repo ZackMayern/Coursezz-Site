@@ -14,8 +14,13 @@
   </head>
   <body>
     <div class="cover-page">
-      <!-- <div class="cover-page-info" data-scroll-to="coverPageInfo">
-        <div class="cover-page-container"></div> -->
+      <nav class="nav-bar">
+        <button class="coursezz-logo" id="coursezzLogo">coursezz</button>
+        <button class="about-us-button" id="aboutUsButton">About us</button>
+        <button class="login-button" id="loginButton">Login</button>
+        <button class="register-button" id="registerButton">Register</button>
+        <div class="horizontal-rule"></div>
+      </nav>
       <p class="cover-page-info-container">
         <span class="cover-page-info-container1">
           <span class="skill-up-and-push-your-limits">
@@ -34,14 +39,6 @@
         class="cover-page-image" alt="" src="public/stockphotoayoungfemalestudentsittingatthetableusingtabletwhenstudying1397722958transformed-1@2x.png"/>
         <button class="explore-button" id="exploreButton"><p>Explore Our Courses</p></button>
       </div>
-      <nav class="nav-bar">
-        <nav class="nav-bar1"></nav>
-        <button class="coursezz-logo" id="coursezzLogo">coursezz</button>
-        <button class="about-us-button" id="aboutUsButton">About us</button>
-        <button class="login-button" id="loginButton">Login</button>
-        <button class="register-button" id="registerButton">Register</button>
-        <div class="horizontal-rule"></div>
-      </nav>
     </div>
 
     <script>
@@ -55,21 +52,21 @@
       var registerButton = document.getElementById("registerButton");
       if (registerButton) {
         registerButton.addEventListener("click", function (e) {
-          window.location.href = "./register.html";
+          window.location.href = "./register-page.html";
         });
       }
       
       var loginButton = document.getElementById("loginButton");
       if (loginButton) {
         loginButton.addEventListener("click", function (e) {
-          // Please sync "Login Page" to the project
+          window.location.href = "./login-page.html";
         });
       }
       
       var aboutUsButton = document.getElementById("aboutUsButton");
       if (aboutUsButton) {
         aboutUsButton.addEventListener("click", function (e) {
-          // Please sync "About Page" to the project
+          window.location.href = "./about-us.html";
         });
       }
       

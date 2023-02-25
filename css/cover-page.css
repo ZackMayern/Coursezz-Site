@@ -1,3 +1,4 @@
+/* Cover page design */
 body {
   margin: 0;
   line-height: normal;
@@ -16,7 +17,7 @@ body {
 }
 .with-more-than-5400-courses {
   display: block;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
 }
 .cover-page-info-container1 {
   line-break: anywhere;
@@ -57,7 +58,7 @@ body {
   height: 130.78px;
 }
 .explore-button p {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-base);
   font-weight: 700;
   font-family: var(--font-jost);
   color: var(--color-white);
@@ -69,15 +70,24 @@ body {
   width: 1920px;
   height: 1080px;
 }
-.nav-bar1 {
+.cover-page {
+  background-color: var(--color-gray);
+  text-align: left;
+  font-size: 86px;
+  color: var(--color-black);
+  font-family: var(--font-jost);
+}
+
+/* Navigation Bar Design*/
+.nav-bar {
   top: 0;
   left: 0;
 }
-.nav-bar1,
+.nav-bar,
 .register-button {
   position: absolute;
 }
-.nav-bar1 {
+.nav-bar {
   height: 99.37%;
   width: 100%;
   right: 0;
@@ -89,6 +99,7 @@ body {
   border: 0;
   padding: 0;
   background-color: var(--color-mediumblue);
+  font-weight: 700;
   height: 42.41%;
   width: 6.82%;
   top: 29.08%;
@@ -106,7 +117,7 @@ body {
   text-align: left;
 }
 .about-us-button {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
 }
 .about-us-button,
 .coursezz-logo,
@@ -123,11 +134,11 @@ body {
 }
 .login-button,
 .register-button {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
   font-family: var(--font-jost);
 }
 .register-button {
-  color: var(--color-gray);
+  color: var(--color-gray-100);
   text-align: center;
   mix-blend-mode: normal;
 }
@@ -146,7 +157,7 @@ body {
   width: 12.01%;
   top: 21.81%;
   left: 1.15%;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-base);
 }
 .horizontal-rule {
   position: absolute;
@@ -165,12 +176,4 @@ body {
   left: 0;
   width: 1920px;
   height: 82.52px;
-}
-.cover-page {
-  position: relative;
-  background-color: var(--color-gray);
-  text-align: left;
-  font-size: 86px;
-  color: var(--color-black);
-  font-family: var(--font-jost);
 }

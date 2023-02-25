@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.about-section-3-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1920px;
+  height: 1080px;
+}
+.sed-consequat-leo,
+.why-choose-us {
+  position: absolute;
+  top: 297px;
+  display: flex;
+  align-items: center;
+}
+.why-choose-us {
+  left: 812px;
+  justify-content: center;
+  width: 297px;
+  height: 70px;
+}
+.sed-consequat-leo {
+  margin: 0;
+  left: 112px;
+  text-align: left;
+  width: 1696px;
+  height: 485px;
+}
+.about-section-3 {
+  position: absolute;
+  top: 2160px;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+}
+.phasellus-viverra-nulla,
+.what-do-we {
+  position: absolute;
+  top: 297px;
+  display: flex;
+  align-items: center;
+}
+.what-do-we {
+  left: 762px;
+  justify-content: center;
+  width: 396px;
+  height: 70px;
+}
+.phasellus-viverra-nulla {
+  left: 112px;
+  text-align: left;
+  width: 1696px;
+  height: 485px;
+}
+.about-section-2 {
+  position: absolute;
+  top: 1080px;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+}
+.about-us,
+.lorem-ipsum-dolor {
+  position: absolute;
+  top: 297px;
+  display: flex;
+  align-items: center;
+}
+.lorem-ipsum-dolor {
+  left: 112px;
+  width: 1696px;
+  height: 485px;
+}
+.about-us {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 835px;
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  font-family: var(--font-jost);
+  color: var(--color-black);
+  text-align: center;
+  justify-content: center;
+  width: 251px;
+  height: 70px;
+}
+.about-section-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  text-align: left;
+}
+.horizontal-rule {
+  position: absolute;
+  top: 82.17px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1922px;
+  height: 1px;
+}
+.nav-bar1,
+.signup-button {
+  position: absolute;
+  height: 99.37%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.63%;
+  left: 0;
+  background-color: var(--color-gray-100);
+}
+.signup-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-mediumblue);
+  height: 42.41%;
+  width: 6.82%;
+  top: 29.08%;
+  right: 1.77%;
+  bottom: 28.5%;
+  left: 91.41%;
+  border-radius: 14px;
+}
+.login-button {
+  height: 100.58%;
+  width: 3.23%;
+  top: -1.21%;
+  left: 85.21%;
+  font-size: var(--font-size-sm);
+  color: var(--color-mediumblue);
+  text-align: left;
+}
+.about-us-button,
+.coursezz-logo,
+.login-button,
+.register {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  font-weight: 700;
+  font-family: var(--font-jost);
+  display: flex;
+  align-items: center;
+}
+.register {
+  width: 4.95%;
+  top: 27.87%;
+  left: 92.4%;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  text-align: left;
+  mix-blend-mode: normal;
+}
+.about-us-button,
+.coursezz-logo {
+  color: var(--color-mediumblue);
+  text-align: center;
+  justify-content: center;
+}
+.about-us-button {
+  height: 100.58%;
+  width: 5.52%;
+  top: 0;
+  left: 76.72%;
+  font-size: var(--font-size-sm);
+}
+.coursezz-logo {
+  height: 58.17%;
+  width: 12.01%;
+  top: 21.81%;
+  left: 1.15%;
+  font-size: 40px;
+}
+.horizontal-rule1 {
+  position: absolute;
+  height: 1.21%;
+  width: 100.05%;
+  top: 99.39%;
+  right: -0.03%;
+  bottom: -0.61%;
+  left: -0.03%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 82.52px;
+}
+.about-section-1-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-mediumblue);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 640px;
+  height: 132px;
+}
+.about-us1 {
+  position: absolute;
+  top: 40px;
+  left: 226px;
+  font-size: var(--font-size-base);
+  display: flex;
+  font-family: var(--font-jost);
+  color: var(--color-gray-200);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 188px;
+  height: 52px;
+}
+.about-section-1-link {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 132px;
+}
+.what-do-we1 {
+  position: absolute;
+  top: 40px;
+  left: 172px;
+  font-size: var(--font-size-base);
+  display: flex;
+  font-family: var(--font-jost);
+  color: var(--color-gray-200);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 297px;
+  height: 52px;
+}
+.about-section-2-link {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 640px;
+  width: 640px;
+  height: 132px;
+}
+.why-choose-us1 {
+  position: absolute;
+  top: 40px;
+  left: 179px;
+  font-size: var(--font-size-base);
+  display: flex;
+  font-family: var(--font-jost);
+  color: var(--color-gray-200);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 282px;
+  height: 52px;
+}
+.about-section-3-link {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 1280px;
+  width: 640px;
+  height: 132px;
+}
+.about-bar {
+  position: fixed;
+  top: 83px;
+  left: 0;
+  width: 1920px;
+  height: 132px;
+  scroll-behavior: smooth;
+}
+.about-page {
+  background-color: var(--color-gray-100);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-jost);
+}

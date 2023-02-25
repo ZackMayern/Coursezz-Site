@@ -3,12 +3,17 @@
   --font-jost: Jost;
 
   /* font sizes */
-  --font-size-base: 24px;
+  --font-size-sm: 24px;
+  --font-size-base: 32px;
   --font-size-lg: 40px;
 
   /* Colors */
-  --color-gray: #feffff;
+  --color-gray-100: #feffff;
+  --color-gray-200: #fefefe;
   --color-black: #000;
   --color-mediumblue: #3840ff;
   --color-white: #fff;
+
+  /* fonts */
+  --font-jost: Jost;
 }
