@@ -17,3 +17,7 @@
   /* border radiuses */
   --br-md: 15px;
 }
+
+::placeholder {
+  padding-left: 1vw;
+}

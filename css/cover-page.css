@@ -157,7 +157,7 @@ body {
   width: 12.01%;
   top: 21.81%;
   left: 1.15%;
-  font-size: var(--font-size-base);
+  font-size: 40px;
 }
 .horizontal-rule {
   position: absolute;
