@@ -1,6 +1,7 @@
 body {
   margin: 0;
   line-height: normal;
+  overflow-x: hidden;
 }
 .about-section-3-child {
   position: absolute;
@@ -130,6 +131,13 @@ body {
   bottom: 28.5%;
   left: 91.41%;
   border-radius: 14px;
+  font-weight: 700;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-jost);
+  color: var(--color-gray-100);
+  display: float;
+  align-items: center;
+  text-align: center;
 }
 .login-button {
   height: 100.58%;
@@ -142,8 +150,7 @@ body {
 }
 .about-us-button,
 .coursezz-logo,
-.login-button,
-.register {
+.login-button {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -153,15 +160,6 @@ body {
   font-family: var(--font-jost);
   display: flex;
   align-items: center;
-}
-.register {
-  width: 4.95%;
-  top: 27.87%;
-  left: 92.4%;
-  font-size: var(--font-size-sm);
-  color: var(--color-gray-100);
-  text-align: left;
-  mix-blend-mode: normal;
 }
 .about-us-button,
 .coursezz-logo {

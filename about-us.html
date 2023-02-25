@@ -67,9 +67,8 @@
       <div class="horizontal-rule"></div>
       <nav class="nav-bar">
         <nav class="nav-bar1"></nav>
-        <button class="signup-button" id="signupButton"></button>
+        <button class="signup-button" id="signupButton">Register</button>
         <button class="login-button" id="loginButton">Login</button>
-        <button class="register">Register</button>
         <button class="coursezz-logo" id="coursezzLogo">coursezz</button>
         <div class="horizontal-rule1"></div>
       </nav>
@@ -105,7 +104,7 @@
       var coursezzLogo = document.getElementById("coursezzLogo");
       if (coursezzLogo) {
         coursezzLogo.addEventListener("click", function (e) {
-          // Please sync "Cover Page" to the project
+          window.location.href = "./cover-page.html";
         });
       }
       
