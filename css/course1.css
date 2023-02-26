@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.enroll-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-mediumblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 240px;
+  height: 102px;
+}
+.enroll {
+  position: absolute;
+  top: 22px;
+  left: 72px;
+}
+.container,
+.enroll-button {
+  position: absolute;
+  top: 906px;
+  left: 1126px;
+  width: 240px;
+  height: 102px;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.25);
+}
+.course-name,
+.course-source,
+.course-source1 {
+  position: absolute;
+  height: 18.2%;
+  width: 82.65%;
+  top: 53.75%;
+  left: 8.67%;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-jost);
+  color: var(--color-black);
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.course-source,
+.course-source1 {
+  height: 6%;
+  width: 72.45%;
+  top: 74.09%;
+  font-size: var(--font-size-4xs);
+  color: var(--color-gray-400);
+}
+.course-source1 {
+  top: 82.23%;
+}
+.course-image-icon {
+  position: absolute;
+  height: 45.61%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 54.39%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.course {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 240px;
+  left: 167px;
+  width: 481px;
+  height: 600px;
+}
+.course:hover {
+  box-shadow: 0 4px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.shop-cart-icon {
+  position: absolute;
+  top: 113px;
+  left: 1850px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.course-heading-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-mediumblue);
+  box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.25);
+  width: 1067px;
+  height: 97px;
+}
+.create-your-first {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  display: inline-block;
+  width: 1067px;
+  height: 62px;
+}
+.course-desc-container,
+.course-heading {
+  position: absolute;
+  top: 117px;
+  left: 753px;
+  width: 1067px;
+  height: 97px;
+}
+.course-desc-container {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.25);
+  height: 611px;
+}
+.learn-step-by-step {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.lorem-ipsum-dolor {
+  margin-bottom: 0;
+}
+.lorem-ipsum-dolor-sit-amet-co {
+  margin: 0;
+  padding-left: 53px;
+}
+.learn-step-by-step-lorem-container {
+  position: absolute;
+  top: 11px;
+  left: 49.12px;
+  display: inline-block;
+  width: 934.28px;
+  height: 586px;
+}
+.course-desc {
+  position: absolute;
+  top: 229px;
+  left: 753px;
+  width: 1067px;
+  height: 611px;
+  text-align: left;
+  font-size: var(--font-inherit);
+  color: rgba(0, 0, 0, 0.8);
+  font-family: var(--font-inherit);
+}
+.back-button-1-icon {
+  position: absolute;
+  top: 113px;
+  left: 30px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.nav-bar1,
+.signup-button {
+  position: absolute;
+  height: 99.37%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.63%;
+  left: 0;
+  background-color: var(--color-gray-100);
+}
+.signup-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-mediumblue);
+  height: 42.41%;
+  width: 6.82%;
+  top: 29.08%;
+  right: 1.77%;
+  bottom: 28.5%;
+  left: 91.41%;
+  border-radius: var(--br-md);
+}
+.login-button {
+  height: 100.58%;
+  width: 3.23%;
+  top: -1.21%;
+  left: 85.21%;
+  color: var(--color-mediumblue);
+  text-align: left;
+}
+.about-us-button,
+.coursezz-logo,
+.login-button,
+.register {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  font-size: var(--font-size-2xs);
+  font-weight: 700;
+  font-family: var(--font-jost);
+  display: flex;
+  align-items: center;
+}
+.register {
+  width: 4.95%;
+  top: 27.87%;
+  left: 92.4%;
+  color: var(--color-gray-100);
+  text-align: left;
+  mix-blend-mode: normal;
+}
+.about-us-button,
+.coursezz-logo {
+  height: 100.58%;
+  width: 5.52%;
+  top: 0;
+  left: 76.72%;
+  color: var(--color-mediumblue);
+  text-align: center;
+  justify-content: center;
+}
+.coursezz-logo {
+  height: 58.17%;
+  width: 12.01%;
+  top: 21.81%;
+  left: 1.15%;
+  font-size: var(--font-size-lg);
+}
+.horizontal-rule {
+  position: absolute;
+  height: 1.21%;
+  width: 100.05%;
+  top: 99.39%;
+  right: -0.03%;
+  bottom: -0.61%;
+  left: -0.03%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.nav-bar,
+.python-program {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 82.52px;
+}
+.python-program {
+  background-color: var(--color-white);
+  height: 1080px;
+  overflow: hidden;
+}
+.python-program-parent {
+  position: relative;
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-jost);
+}
