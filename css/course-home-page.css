@@ -261,7 +261,7 @@ body {
 }
 .sub-bar {
   position: absolute;
-  top: 82px;
+  top: 83px;
   left: 0;
   background-color: var(--color-mediumblue);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
