@@ -2,7 +2,6 @@ body {
   margin: 0;
   line-height: normal;
   position: absolute;
-  overflow-x: hidden;
 }
 .container,
 .course-home-page-child {
