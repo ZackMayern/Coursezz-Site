@@ -17,6 +17,7 @@
 
   /* Border Radius */
   --br-md: 15px;
+  --br-sm: 5px;
 }
 
 ::placeholder {

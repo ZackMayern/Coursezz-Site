@@ -5,7 +5,7 @@
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
     <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/course1.css" />
+    <link rel="stylesheet" href="css/pythonprogram.css" />
 
     <link
       rel="stylesheet"
@@ -27,9 +27,10 @@
           <img
             class="course-image-icon"
             alt=""
-            src="public/course-image@2x.png"
-          /></button
-        ><img class="shop-cart-icon" alt="" src="public/shop-cart@2x.png" />
+            src="public/course-home-page/course-image11@2x.png"
+          />
+        </button>
+        <img class="shop-cart-icon" alt="Cart" src="public/course-details-page/shop-cart@2x.png" />
         <div class="course-heading">
           <div class="course-heading-container"></div>
           <div class="create-your-first">Create your first Python program</div>
@@ -57,12 +58,13 @@
             </ol>
           </div>
         </div>
-        <img
-          class="back-button-1-icon"
-          alt=""
-          src="public/backbutton-1@2x.png"
-          id="backButton1Icon"
-        />
+        <button class="back-button-1-icon" id="backButton">
+          <img
+          alt="Back"
+          src="public/course-details-page/backbutton-1@2x.png"
+          style="width: 45pxl; height: 45px;"
+          />
+        </button>
         <nav class="nav-bar">
           <nav class="nav-bar1"></nav>
           <button class="signup-button" id="signupButton"></button
@@ -76,16 +78,9 @@
     </div>
 
     <script>
-      var course = document.getElementById("course");
-      if (course) {
-        course.addEventListener("click", function (e) {
-          window.location.href = "./F$72:543$";
-        });
-      }
-      
-      var backButton1Icon = document.getElementById("backButton1Icon");
-      if (backButton1Icon) {
-        backButton1Icon.addEventListener("click", function (e) {
+      var backButton = document.getElementById("backButton");
+      if (backButton) {
+        backButton.addEventListener("click", function (e) {
           window.location.href = "./course-home-page.html";
         });
       }

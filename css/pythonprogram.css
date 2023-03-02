@@ -6,7 +6,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: var(--br-lg);
+  border-radius: var(--br-sm);
   background-color: var(--color-mediumblue);
   border: 1px solid var(--color-black);
   box-sizing: border-box;
@@ -77,7 +77,6 @@ body {
   object-fit: cover;
 }
 .course {
-  cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
@@ -115,6 +114,7 @@ body {
   display: inline-block;
   width: 1067px;
   height: 62px;
+  border-radius: var(--br-sm);
 }
 .course-desc-container,
 .course-heading {
@@ -168,8 +168,9 @@ body {
   left: 30px;
   width: 45px;
   height: 45px;
-  object-fit: cover;
   cursor: pointer;
+  border: hidden;
+  background: transparent;
 }
 .nav-bar1,
 .signup-button {
@@ -212,7 +213,7 @@ body {
   padding: 0;
   background-color: transparent;
   position: absolute;
-  font-size: var(--font-size-2xs);
+  font-size: var(--font-size-sm);
   font-weight: 700;
   font-family: var(--font-jost);
   display: flex;
