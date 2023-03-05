@@ -18,6 +18,6 @@ All necesssary files are added to this repository and will be updated regularly.
 - The site is not optimized for mobile devices currently.
 ## Authors
 
-- [@ENIGMAKUN](https://github.com/ENIGMA-KUN) Back-End development
 - [@ZackMayern](https://github.com/ZackMayern) Front-End development
-More to add as collaborators...
+- [@ENIGMAKUN](https://github.com/ENIGMA-KUN) Back-End development
+- [@AS007](https://github.com/AS-1007) Design and Management
