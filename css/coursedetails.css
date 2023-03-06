@@ -173,7 +173,7 @@ body {
   background: transparent;
 }
 .nav-bar1,
-.signup-button {
+.register-button {
   position: absolute;
   height: 99.37%;
   width: 100%;
@@ -183,7 +183,7 @@ body {
   left: 0;
   background-color: var(--color-gray-100);
 }
-.signup-button {
+.register-button {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -206,8 +206,7 @@ body {
 }
 .about-us-button,
 .coursezz-logo,
-.login-button,
-.register {
+.login-button {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -219,12 +218,13 @@ body {
   display: flex;
   align-items: center;
 }
-.register {
-  width: 4.95%;
+.register-button {
   top: 27.87%;
-  left: 92.4%;
+  font-family: var(--font-jost);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
   color: var(--color-gray-100);
-  text-align: left;
+  text-align: center;
   mix-blend-mode: normal;
 }
 .about-us-button,
