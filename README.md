@@ -1,7 +1,7 @@
 
 # TIE Front End Web Development Course
 
-This repository contains pure HTML and CSS for a course selling website named Coursezz. Contains basic cover, login, register, course listing, course category, cart, payment gateway pages.
+This repository contains pure HTML and CSS for a course selling website named Coursezz. Contains basic cover, login, register, course listing, course category pages.
 
 All necesssary files are added to this repository and will be updated regularly.
 
