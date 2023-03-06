@@ -256,19 +256,19 @@ body {
   box-sizing: border-box;
 }
 .nav-bar,
-.python-program {
+.program {
   position: absolute;
   top: 0;
   left: 0;
   width: 1920px;
   height: 82.52px;
 }
-.python-program {
+.program {
   background-color: var(--color-white);
   height: 1080px;
   overflow: hidden;
 }
-.python-program-parent {
+.program-parent {
   position: relative;
   width: 100%;
   height: 1080px;
