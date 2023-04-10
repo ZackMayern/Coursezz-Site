@@ -5,7 +5,7 @@ This repository contains pure HTML and CSS for a course selling website named Co
 
 All necesssary files are added to this repository and will be updated regularly.
 
-
+The design of the website can be found here on Figma - https://www.figma.com/files/team/1210267250414132964
 
 ## Installation
 
